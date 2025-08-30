@@ -25,17 +25,17 @@ pip install -r requirements.txt
 ### 2. Basic Usage
 from src.modeling import ThalassemiaScreener
 
-# Load your data (array of patient features)
+#### Load your data (array of patient features)
 X, y = load_data(...)
 
-# Initialize and train the screener
+#### Initialize and train the screener
 screener = ThalassemiaScreener()
 screener.fit(X, y)
 
-# Predict on new data
+#### Predict on new data
 patient_data = [...]
 decision = screener.predict(patient_data)
-# Output: 'Immediate Treatment', 'Urgent Testing', or 'Routine Follow-up'
+#### Output: 'Immediate Treatment', 'Urgent Testing', or 'Routine Follow-up'
 ### 3. Run the Full Analysis
 Clone the repo and run the Jupyter notebooks in order:
 ```bash
@@ -58,10 +58,12 @@ ROC-AUC: 0.916 | Optimal Threshold: 0.251
 
 ## 🗂️ Project Structure
 
+```text
 ├── data/           # Preprocessed datasets
 ├── notebook/       # End-to-end analysis
 ├── docs/           # Documentations
 └── results/        # Key figures & outputs
+```
 
 ---
 
