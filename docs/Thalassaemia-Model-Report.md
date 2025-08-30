@@ -152,10 +152,10 @@ If you use this work in your research, please cite:
 @software{thalassemia_screening_2024,
   title = {AI-Powered Thalassemia Screening with Clinical Safety Optimization},
   author = {Rizwan, Aleeza},
-  year = {2024},
+  year = {2025},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/its-aleezA/thalassemia-screening}}
+  howpublished = {\url{https://github.com/its-aleezA/ai-powered-thalassemia-screening}}
 }
 ```
 
