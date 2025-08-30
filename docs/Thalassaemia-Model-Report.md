@@ -67,20 +67,16 @@ This system analyzes blood test parameters to screen for thalassemia with clinic
 
 ```text
 thalassemia-screening/
-├── data/ # Preprocessed datasets
-├── notebooks/ # Jupyter notebooks for analysis
-│ ├── 01_data_preprocessing.ipynb
-│ ├── 02_eda.ipynb
-│ ├── 03_model_training.ipynb
-│ └── 04_model_evaluation.ipynb
-├── src/ # Source code modules
-│ ├── preprocessing.py
-│ ├── modeling.py
-│ └── evaluation.py
-├── results/ # Generated outputs and visualizations
+├── notebook/            # Jupyter notebook for analysis
+│ └──Thalassemia-Model-CTGAN.ipynb
+├── doc/                 # Source code modules
+│ ├── Thalassaemia-Model-Report.pdf
+│ └── Thalassaemia-Model-Report.md
+├── results/             # Generated outputs and visualizations
 │ ├── confusion_matrix.png
 │ ├── feature_importance.png
-│ └── performance_metrics.csv
+│ ├── roc-curve.png
+│ └── precision-recall-curve.png
 └── README.md
 ```
 
