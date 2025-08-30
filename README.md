@@ -59,7 +59,6 @@ ROC-AUC: 0.916 | Optimal Threshold: 0.251
 ## 🗂️ Project Structure
 
 ```text
-├── data/           # Preprocessed datasets
 ├── notebook/       # End-to-end analysis
 ├── docs/           # Documentations
 └── results/        # Key figures & outputs
