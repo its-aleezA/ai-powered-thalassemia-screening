@@ -40,9 +40,9 @@ patient_data = [...]
 decision = screener.predict(patient_data)
 ```
 ### 3. Run the Full Analysis
-Clone the repo and run the Jupyter notebooks in order:
+Clone the repo and run the Jupyter notebook:
 ```bash
-jupyter notebook notebooks/01_data_preprocessing.ipynb
+jupyter notebook notebooks/Thalassemia-Model-CTGAN.ipynb
 ```
 
 ---
