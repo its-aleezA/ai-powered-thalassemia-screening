@@ -23,19 +23,20 @@ This project develops a clinical decision support tool that analyzes standard bl
 pip install -r requirements.txt
 ```
 ### 2. Basic Usage
+```python
 from src.modeling import ThalassemiaScreener
 
-#### Load your data (array of patient features)
+# Load your data (array of patient features)
 X, y = load_data(...)
 
-#### Initialize and train the screener
+# Initialize and train the screener
 screener = ThalassemiaScreener()
 screener.fit(X, y)
 
-#### Predict on new data
+# Predict on new data
 patient_data = [...]
 decision = screener.predict(patient_data)
-#### Output: 'Immediate Treatment', 'Urgent Testing', or 'Routine Follow-up'
+```
 ### 3. Run the Full Analysis
 Clone the repo and run the Jupyter notebooks in order:
 ```bash
