@@ -266,4 +266,6 @@ A: We used CTGAN, a sophisticated synthetic data generation technique, to create
 **Q: What is the number one priority of this model?**
 A: Clinical Safety. This is defined as minimizing False Positives to avoid misdiagnosing healthy individuals. All design decisions, from the cost function to the final threshold, were made with this principle in mind.
 
-For any questions regarding this project, please open an issue on GitHub or contact [Aleeza Rizwan](aleeza.rizwan.713@gmail.com).
+---
+
+_For any questions regarding this project, please open an issue on GitHub or contact [Aleeza Rizwan](aleeza.rizwan.713@gmail.com)._
