@@ -165,9 +165,9 @@ _Disclaimer: This project is for research purposes only. Not intended for direct
 
 The project includes a complete pipeline for training, evaluating, and interpreting the model.
 ### Training Scripts
-The main training and evaluation logic is contained in the Jupyter notebooks:
-- notebooks/03_model_training.ipynb: Compares multiple classifiers and performs hyperparameter tuning.
-- notebooks/04_model_evaluation.ipynb: Contains the final evaluation, threshold optimization, and SHAP analysis.
+The main training and evaluation logic is contained in the Jupyter notebook:
+- Comparison of multiple classifiers and performs hyperparameter tuning.
+- The final evaluation, threshold optimization, and SHAP analysis.
 ### Hyperparameter Tuning
 The final XGBoost model was optimized using a focus on recall and a custom class weight to address imbalance:
 ```python
@@ -209,8 +209,7 @@ SHAP summary plot illustrating the top features contributing to model prediction
 Precision-Recall curve showing the trade-off between the two metrics. The red dot indicates the chosen operating point for clinical safety.
 
 4. Probability Distributions
-![SHAP Diagram](results/probability_distributions.png)
-Distribution of predicted probabilities for each class. Shows clear separation between Normal and Thalassemia cases and the position of the optimized threshold.
+Distribution of predicted probabilities for each class is used to show clear separation between Normal and Thalassemia cases and the position of the optimized threshold.
 
 ---
 
