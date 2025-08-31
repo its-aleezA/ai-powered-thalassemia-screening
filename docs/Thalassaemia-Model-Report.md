@@ -234,7 +234,9 @@ The conscious design choice to **minimize false positives** (4.2%) comes at the 
 
 ### Explainability for Clinicians
 The use of **SHAP (SHapley Additive exPlanations)** is a critical component. It allows a clinician to see why the model made a certain prediction for an individual patient, fostering trust and enabling them to validate the model's reasoning against their own expertise.
+
 ![SHAP Diagram](results/feature-importance.png)
+
 Example SHAP force plot for a single prediction, showing how each feature contributed to pushing the model output from the base value to the final prediction.
 
 ---
