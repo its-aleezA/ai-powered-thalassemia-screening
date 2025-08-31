@@ -71,12 +71,12 @@ thalassemia-screening/
 │ └──Thalassemia-Model-CTGAN.ipynb
 ├── doc/                 # Source code modules
 │ ├── Thalassaemia-Model-Report.pdf
-│ └── Thalassaemia-Model-Report.md
-├── results/             # Generated outputs and visualizations
-│ ├── confusion_matrix.png
-│ ├── feature_importance.png
-│ ├── roc-curve.png
-│ └── precision-recall-curve.png
+│ ├── Thalassaemia-Model-Report.md
+│ └──results/             # Generated outputs and visualizations
+│   ├── confusion_matrix.png
+│   ├── feature_importance.png
+│   ├── roc-curve.png
+│   └── precision-recall-curve.png
 └── README.md
 ```
 
