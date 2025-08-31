@@ -197,15 +197,21 @@ def clinical_cost(y_true, probs, threshold):
 The `/results` directory contains key figures that illustrate model performance and decision-making process.
 
 1. Confusion Matrix
+   
 ![Confusion Matrix](results/confusion-matrix.png)
+
 Confusion matrix showing performance at the clinically optimized threshold (0.251). Highlights the low false positive count.
 
 2. Feature Importance
+   
 ![SHAP Diagram](results/feature-importance.png)
+
 SHAP summary plot illustrating the top features contributing to model predictions. MCV and MCH are the strongest predictors, aligning with clinical knowledge.
 
 3. Precision-Recall Curve
+
 ![PR Curve](results/precision_recall_curve.png)
+
 Precision-Recall curve showing the trade-off between the two metrics. The red dot indicates the chosen operating point for clinical safety.
 
 4. Probability Distributions
