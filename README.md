@@ -2,7 +2,8 @@
 
 A machine learning model designed to detect thalassemia from blood test results, **prioritizing clinical safety by minimizing false positives**. Optimized with XGBoost and validated for real-world utility.
 
-> **Note on Data Confidentiality**: The patient dataset used to develop this model is confidential and not publicly available due to privacy restrictions. This repository contains the source code, methodology, and analysis results only.
+> [!IMPORTANT]
+> The patient dataset used to develop this model is confidential and not publicly available due to privacy restrictions. This repository contains the source code, methodology, and analysis results only.
 
 **Key Achievements**:
 - ✅ **4.2% False Positive Rate** (exceeds clinical safety target)
