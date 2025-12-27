@@ -89,4 +89,5 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-_Disclaimer: For research purposes only. Not intended for direct clinical use._
+> [!DISCLAIMER]
+> For research purposes only. Not intended for direct clinical use.
