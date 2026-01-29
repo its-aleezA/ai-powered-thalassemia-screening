@@ -157,7 +157,8 @@ If you use this work in your research, please cite:
 
 ---
 
-_Disclaimer: This project is for research purposes only. Not intended for direct clinical use without further validation._
+> [!Disclaimer]
+> This project is for research purposes only. Not intended for direct clinical use without further validation._
 
 ---
 
